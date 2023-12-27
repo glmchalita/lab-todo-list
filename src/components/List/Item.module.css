@@ -1,0 +1,74 @@
+.item {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.item input {
+  display: none;
+}
+
+.checkbox {
+  height: 1.125rem;
+  width: 1.125rem;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid var(--blue);
+
+  cursor: pointer;
+}
+
+.checkboxUnchecked {
+  color: var(--blue);
+}
+
+.checkboxUnchecked:hover {
+  border-color: var(--blue-dark);
+  background-color: rgba(30, 111, 159, 0.2);
+}
+
+.checkboxChecked {
+  border-color: var(--purple-dark);
+  background-color: var(--purple-dark);
+}
+
+.checkboxChecked:hover {
+  border-color: var(--purple);
+  background-color: var(--purple);
+}
+
+.paragraph {
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.paragraphChecked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.trash {
+  color: var(--gray-300);
+  border: none;
+  line-height: 0;
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trash:hover {
+  background-color: var(--gray-400);
+  color: var(--danger);
+}

@@ -1,0 +1,33 @@
+.container {
+  max-width: 39.875rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.tasks {
+  margin-top: 4rem;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.newTaskForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: calc(0px - 1.6875rem);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .container {
+    max-width: 30rem;
+  }
+}

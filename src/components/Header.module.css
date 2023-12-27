@@ -1,0 +1,9 @@
+.header {
+  background: var(--gray-700);
+  height: 12.5rem;
+  text-align: center;
+}
+
+.header img {
+  margin-top: 4.5rem;
+}
