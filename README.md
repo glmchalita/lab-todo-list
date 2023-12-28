@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+<a name="readme-top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="../media/images/rocketseat-logo.png?raw=true" width="256">
 
-Currently, two official plugins are available:
+# ToDo List
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="../media/images/homepage.png?raw=true">
 
-## Expanding the ESLint configuration
+This application aims to store your tasks and assist you in your productivity.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This is a project developed in React using the Vite.js builder.
 
-- Configure the top-level `parserOptions` property like this:
+## Built with
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- React
+- TypeScript
+- Vite.js
+
+## Running
+
+```
+git clone https://github.com/glmchalita/lab-todo-list
+npm install
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+In this way, the application will be running locally on the default port 5173 (http://localhost:5173).
+
+Note: If you want to run the application on a different port, use the following command.
+
+```
+npm run dev -- --port 8000
+```
+
+Alternatively, if you prefer, configure the vite.config file for the desired port.
+
+```js
+// vite.config.js
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  server: {
+    port: 8000,
+  },
+})
+```
+
+## Roadmap
+
+- Filtering tasks by alphabetical order or date.
+- Sorting completed tasks.
+
+## Conclusão
+
+Project designed by [Rocketseat](https://github.com/rocketseat-education), the purpose of the project was to learn, in practice, the most commonly used concepts of React.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
