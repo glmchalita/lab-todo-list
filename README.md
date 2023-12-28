@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<img src="../media/images/rocketseat-logo.png?raw=true" width="256">
+<img src="../media/images/rocketseat-logo.png?raw=true" width="128">
 
 # ToDo List
 
