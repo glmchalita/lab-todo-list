@@ -50,7 +50,7 @@ export default defineConfig({
 - Filtering tasks by alphabetical order or date.
 - Sorting completed tasks.
 
-## Conclusão
+## Conclusion
 
 Project designed by [Rocketseat](https://github.com/rocketseat-education), the purpose of the project was to learn, in practice, the most commonly used concepts of React.
 
